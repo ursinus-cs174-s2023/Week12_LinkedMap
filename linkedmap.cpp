@@ -91,8 +91,8 @@ class LinkedMap {
 int main() {
     LinkedMap<string, int> L;
     L.put("james", 25);
-    L.put("chris", 33);
-    L.put("celia", 32);
+    L.put("chris", 34);
+    L.put("celia", 33);
     printf("\n");
     printf("%i", (int)L.containsKey("chris"));
     L.remove("chris");
